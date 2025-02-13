@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "es2020", // Or a target you prefer, like "esnext"
+    "outDir": "./dist",  // Where compiled JavaScript will go
+    "esModuleInterop": true, // Recommended for modern JS
+    "strict": true        // Recommended for type safety (optional)
+  },
+  "include": [
+    "server.ts" // Or the entry point to your application
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
